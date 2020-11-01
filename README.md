@@ -37,11 +37,11 @@ The following image shows the web application's appearance and functionality:
 
 ## Live URL
 
-[Let's go to My Portfolio]()
+[Let's go to My Portfolio](https://andreedantzler.github.io/Portfolio/)
 
 ## Repo URL
 
-
+https://github.com/AndreeDantzler/Portfolio
 
 ## Licenses: 
 
