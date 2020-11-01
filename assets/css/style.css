@@ -1,0 +1,139 @@
+header {
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  background-color: lightgrey;
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+/*creating flexbox for main*/
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: steelblue;
+}
+
+/*creating flexbox for all sections*/
+section {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 25px;
+  float: left;
+}
+
+.pagename {
+  text-align: center;
+  width: 100%;
+  color: rgb(184, 53, 96);
+}
+
+/* Ensuring section heading take 25% of width*/
+.sectionheading {
+  margin-bottom: 20px;
+  padding-top: 35px;
+  margin-right: 20px;
+  padding-right: 20px;
+  width: 25%;
+  flex-wrap: wrap;
+  border-right: solid lightblue;
+  text-align: right;
+  color: slategrey;
+}
+
+/*ensuring content of section occupy 75% of width*/
+.sectioncontent {
+  margin-bottom: 20px;
+  padding-top: 35px;
+  margin-right: 20px;
+  padding-right: 20px;
+  width: 75%;
+  text-align: center;
+}
+
+/*removing bullets from list*/
+.contact {
+  list-style-type: none;
+}
+
+/*setting color for a tags so that they can have same color as other contacts*/
+a {
+  color: lightslategray;
+}
+
+/*setting max width of images so they don't overflow as well giving them round corners*/
+.img1,
+.img2,
+.img3 {
+  max-width: 100%;
+  border: solid 5px lightblue;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+/*hover over the image capability*/
+.img1:hover {
+  opacity: 0.5;
+}
+
+.img2:hover {
+  opacity: 0.3;
+}
+.img3:hover {
+  opacity: 0.3;
+}
+
+.contact {
+  color: lightslategray;
+  display: inline-block;
+}
+
+/*creating responsive display ensuring sections become columns, the border of section heading disappears */
+
+@media screen and (max-width: 925px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sectionheading {
+    width: 100%;
+    border-right: none;
+    text-align: center;
+  }
+
+  .sectioncontent {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  /*ensuring elements from container become column*/
+
+  .container {
+    flex-direction: column;
+  }
+}
