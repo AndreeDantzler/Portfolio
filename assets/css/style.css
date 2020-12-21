@@ -2,11 +2,14 @@ header {
   padding: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
-  background-color: lightgrey;
+  background-color: rgb(206, 201, 201);
   display: flex;
-  width: 100%;
+  width: 100vw;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
 nav {
   width: 100%;
 }
@@ -17,7 +20,7 @@ main {
   flex-direction: column;
   padding: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: steelblue;
+  color:steelblue;
 }
 
 /*creating flexbox for all sections*/
@@ -29,15 +32,19 @@ section {
 .container {
   margin-right: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   padding: 20px;
   float: right;
   display: flex;
   flex-wrap: wrap;
 }
 
+.container a {
+  font-style: normal;
+}
 header nav ul {
   list-style-type: none;
+  font-style: normal;
 }
 
 header nav ul li {
@@ -48,7 +55,7 @@ header nav ul li {
 .pagename {
   text-align: center;
   width: 100%;
-  color: rgb(184, 53, 96);
+  color: rgb(194, 33, 153);
 }
 
 /* Ensuring section heading take 25% of width*/
@@ -81,15 +88,16 @@ header nav ul li {
 
 /*setting color for a tags so that they can have same color as other contacts*/
 a {
-  color: lightslategray;
+  color: steelblue;
+  font-style: italic;
 }
 
 /*setting max width of images so they don't overflow as well giving them round corners*/
 .img1,
 .img2,
 .img3 {
-  max-width: 100%;
-  border: solid 5px lightblue;
+  max-width: 50%;
+  border: 3px solid lightblue;
   border-radius: 8px;
   opacity: 1;
 }
