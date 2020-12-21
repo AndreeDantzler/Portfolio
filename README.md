@@ -5,7 +5,7 @@
 Welcome to my Portfolio!
 
 I was tasked with following the below Acceptance Criteria to create a portfolio which would allow me to apply the core skills I've recently learned: flexbox, media queries, and CSS variables.
-This Portfolio will be enhancced as I advance in the program.I don't have enough web applications to showcase at this point, therefore I used some placeholder images and names. These will be updated as i progress in the program.
+This Portfolio has been enhanced to showcase some work that I have done so far. This updated portfolio is featuring Project 1 and two exemplary homework assignments.
 
 ### Acceptance Criteria
 
@@ -29,10 +29,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following image shows the web application's appearance and functionality:
 
-![image](https://user-images.githubusercontent.com/69064703/97789042-d0abe200-1b93-11eb-9317-9503c28edbaf.png)
-![image](https://user-images.githubusercontent.com/69064703/97789061-ddc8d100-1b93-11eb-8234-c6c5e48da2f4.png)
-![image](https://user-images.githubusercontent.com/69064703/97789077-fb963600-1b93-11eb-9eaf-71dac6303861.png)
-![image](https://user-images.githubusercontent.com/69064703/97789101-22546c80-1b94-11eb-8853-54ee17920aa7.png)
+![image](https://user-images.githubusercontent.com/69064703/102733453-5e41bd80-430b-11eb-8bf8-ab4df079e9b7.png)
+![image](https://user-images.githubusercontent.com/69064703/102733471-6a2d7f80-430b-11eb-808d-d48c395d2196.png)
 
 
 ## Live URL
