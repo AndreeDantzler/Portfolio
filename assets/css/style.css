@@ -7,7 +7,7 @@ header {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 nav {
   width: 100%;
@@ -18,7 +18,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color:steelblue;
 }
 
@@ -88,7 +88,7 @@ header nav ul li {
 /*setting color for a tags so that they can have same color as other contacts*/
 a {
   color: steelblue;
-  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*setting max width of images so they don't overflow as well giving them round corners*/
@@ -96,7 +96,7 @@ a {
 .img2,
 .img3 {
   max-width: 50%;
-  border: 3px solid lightblue;
+  border: 2px solid darkgrey;
   border-radius: 8px;
   opacity: 1;
 }
